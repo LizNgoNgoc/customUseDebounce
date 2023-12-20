@@ -1,11 +1,10 @@
 import './App.css';
+import { Route } from 'react-router-dom';
 
 function App() {
-  return (
-    <div className="App">
-     
-    </div>
-  );
+  return <section className="App">
+          <Route />
+    </section>
 }
 
 export default App;
