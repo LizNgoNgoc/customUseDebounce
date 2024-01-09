@@ -1,9 +1,9 @@
 import './App.css';
-import { Route } from 'react-router-dom';
+import Debounce from './customHook/Debounce';
 
 function App() {
   return <section className="App">
-          <Route />
+          <Debounce />
     </section>
 }
 
